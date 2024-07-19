@@ -1,0 +1,86 @@
+import EmployerLogo from '../assets/images/webp/EmployerLogo.png';
+import EmployerLogo2 from '../assets/images/webp/EmployerLogo2.png';
+import EmployerLogo3 from '../assets/images/webp/EmployerLogo3.png';
+import EmployerLogo4 from '../assets/images/webp/EmployerLogo4.png';
+import EmployerLogo5 from '../assets/images/webp/EmployerLogo5.png';
+import EmployerLogo6 from '../assets/images/webp/EmployerLogo6.png';
+import EmployerLogo7 from '../assets/images/webp/EmployerLogo7.png';
+export const cardsData = [
+    {
+      employerLogo: EmployerLogo,
+      employerName: 'Dailymotion',
+      location: 'New York, US',
+      skills: ['Adobe XD', 'Figma'],
+      jobTitle: 'Full Stack Engineer',
+      jobType: 'Full time',
+      time: '3 mins ago',
+      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+      salary: '$500/Hour',
+    },
+    {
+      employerLogo: EmployerLogo2,
+      employerName: 'Dailymotion',
+      location: 'California, US',
+      skills: ['Adobe XD', 'Figma'],
+      jobTitle: 'Full Stack Engineer',
+      jobType: 'Full time',
+      time: '3 mins ago',
+      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+      salary: '$500/Hour',
+    },
+    {
+        employerLogo: EmployerLogo3,
+        employerName: 'Dailymotion',
+        location: 'California, US',
+        skills: ['Adobe XD', 'Figma'],
+        jobTitle: 'Full Stack Engineer',
+        jobType: 'Full time',
+        time: '3 mins ago',
+        description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+        salary: '$500/Hour',
+      },
+      {
+        employerLogo: EmployerLogo4,
+        employerName: 'Dailymotion',
+        location: 'California, US',
+        skills: ['Adobe XD', 'Figma'],
+        jobTitle: 'Full Stack Engineer',
+        jobType: 'Full time',
+        time: '3 mins ago',
+        description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+        salary: '$500/Hour',
+      },
+      {
+        employerLogo: EmployerLogo5,
+        employerName: 'Dailymotion',
+        location: 'California, US',
+        skills: ['Adobe XD', 'Figma'],
+        jobTitle: 'Full Stack Engineer',
+        jobType: 'Full time',
+        time: '3 mins ago',
+        description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+        salary: '$500/Hour',
+      },
+      {
+        employerLogo: EmployerLogo6,
+        employerName: 'Dailymotion',
+        location: 'California, US',
+        skills: ['Adobe XD', 'Figma'],
+        jobTitle: 'Full Stack Engineer',
+        jobType: 'Full time',
+        time: '3 mins ago',
+        description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+        salary: '$500/Hour',
+      },
+      {
+        employerLogo: EmployerLogo7,
+        employerName: 'Dailymotion',
+        location: 'California, US',
+        skills: ['Adobe XD', 'Figma'],
+        jobTitle: 'Full Stack Engineer',
+        jobType: 'Full time',
+        time: '3 mins ago',
+        description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
+        salary: '$500/Hour',
+      },
+];
