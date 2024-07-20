@@ -6,7 +6,7 @@ import {cardsData} from '../common/Helper'
 
 const Cards = () => {
   return (
-    <section>
+    <section className=' flex items-center justify-center flex-col'>
       {cardsData.map((data , index) => (
         <div key={index} className="bg-light-gray max-w-[987px] mt-[30px] border border-fade-blue rounded-[16px] pt-6 pb-[30px] ps-[25px] pe-5">
           <div className="flex justify-between items-start flex-wrap gap-2">

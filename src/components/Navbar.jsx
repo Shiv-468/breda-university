@@ -21,12 +21,10 @@ const Navbar = () => {
     <section className="shadow-NavShadow">
       <div className=" container mx-auto">
         <nav className="flex items-center justify-between pt-[23px] pb-[18px]">
-          <a href="">
+          <a href="#">
           <img src={Logo} alt="Logo" className="max-w-[137px] min-h-[44px] w-full" />
           </a>
-          <ul
-            className={`${isMenuOpen ? "right-0" : "right-[-100%]"} flex items-center gap-6 lg:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-beschikbaar z-50`}
-          >
+          <ul className={`${isMenuOpen ? "right-0" : "right-[-100%]"} flex items-center gap-6 lg:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-beschikbaar z-50`}>
             <li>
               <a href="" onClick={handleNavLinkClick} className="text-sm leading-[17.6px] font-Plus-Jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300">
                 Home
