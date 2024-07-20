@@ -3,6 +3,8 @@ import Icons from '../common/icons'
 import AppStore from '../assets/images/svg/AppStore.svg'
 import GooglePlay from '../assets/images/svg/GooglePlay.svg'
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
   return (
    <section>
     <div className=" container mx-auto">
@@ -98,7 +100,7 @@ const Footer = () => {
         </div>
         <div className=" w-full bg-fade-blue h-[1px]"></div>
         <div className=" flex  justify-between pt-[31px] flex-wrap sm:flex-nowrap ">
-            <p className='text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue'>Copyright © 2022. JobBox all right reserved</p>
+            <p className='text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue'>Copyright © {year}. JobBox all right reserved</p>
             <div className="flex items-center gap-4 md:gap-7 flex-wrap mt-4 sm:mt-0">
                 <p className='text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue'>Privacy Policy</p>
                 <p className='text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue'>Terms & Conditions</p>
